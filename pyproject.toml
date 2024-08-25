@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pdc-task1"
+version = "0.1.0"
+description = ""
+authors = ["Morsi Mohsen <morsim33@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
